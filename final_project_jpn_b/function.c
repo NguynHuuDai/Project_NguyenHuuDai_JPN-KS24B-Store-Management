@@ -727,7 +727,7 @@ void deleteProduct(struct Product products[], int *a) {
     printf("Ban co chac chan muon xoa san pham nay? (y/n): ");
     char confirm;
     scanf(" %c", &confirm);
-    getchar();  ?
+    getchar();  
 
     if (confirm == 'y' || confirm == 'Y') {
     
