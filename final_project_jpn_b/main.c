@@ -10,6 +10,8 @@ int main(int argc, char *argv[]) {
     int choice;
     int a = 0;
 	int n = 0;
+	printf("Tai khoan : admin\n");
+	printf("Mat khau : 12345\n");
 	saveAdminCredentials("admin", "12345");
 	checkLogin();
   
