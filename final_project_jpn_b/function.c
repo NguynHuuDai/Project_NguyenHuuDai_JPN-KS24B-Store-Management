@@ -555,12 +555,21 @@ void displayMenuProduct(int *a){
 				editProduct(products, a);
 				break;
 			}
-			case 0:{
+			case 4:{
 				system("cls");
 				deleteProduct(products, a);
 				printf("Exiting the program...\n");
 				break;
-			}  
+			}
+			case 0:{
+				system("cls");
+				printf("Exiting the program...\n");
+				break;
+			}
+			default: {
+		                printf("Lua chon khong hop le vui long thu lai.\n");
+		                break;
+			}
 		}
 		
 		
