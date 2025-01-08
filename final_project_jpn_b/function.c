@@ -531,7 +531,8 @@ void displayMenuProduct(int *a){
 		system("cls");
 		printf("[1] Them vao san pham moi.\n");
 		printf("[2] In ra san pham hien tai.\n");
-		printf("[3] Chinh sua san pham    \n"); 	
+		printf("[3] Chinh sua san pham    \n");
+		printf("[4] Xoa san pham   \n");
 		printf("[0] Thoat\n");
 		printf("Nhap lua chon cua ban : ");
 		scanf("%d", &choiceProduct);
