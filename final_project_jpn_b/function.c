@@ -14,7 +14,7 @@ void displayMenu() {
     printf("====================MENU===================\n");  
     printf(" [1] Chinh sua danh muc                \n");  
     printf(" [2] Chinh sua san pham    \n"); 
-	printf(" [0] Thoat chuong trinh \n");               
+    printf(" [0] Thoat chuong trinh \n");               
     printf("===========================================\n\n");  
     printf("Nhap lua chon cua ban: ");  
 }  	
